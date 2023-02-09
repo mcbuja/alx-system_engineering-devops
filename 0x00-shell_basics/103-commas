@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -m ./ ../ cat file.txt | tr '\n' ','
+ls -am ./ ../ cat file.txt | tr '\n' ','
