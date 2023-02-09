@@ -1,2 +1,4 @@
 #!/bin/bash
-ls -m dir/ ./, ../,
+ls -A | sed -e 's/^/\//' | sort -f -t/ -k1,1 | tr '\n' ',' | sed -e 's/,$/\n/'
+
+
